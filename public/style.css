@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Sarabun', sans-serif;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.search-bar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  padding: 6px 12px;
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-bar button:hover {
+  background-color: #1565c0;
+}
+
+.popup-container {
+  font-family: 'Sarabun', sans-serif;
+  font-size: 14px;
+  padding: 8px;
+  max-width: 240px;
+}
+
+.popup-container h4 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 16px;
+}
+
+.popup-container p {
+  margin: 4px 0;
+}
+
+.popup-container a {
+  color: #2979ff;
+  text-decoration: none;
+  font-size: 13px;
+}

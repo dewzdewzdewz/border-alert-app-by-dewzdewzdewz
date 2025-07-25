@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS reports (
+  id SERIAL PRIMARY KEY,
+  lat DOUBLE PRECISION,
+  lng DOUBLE PRECISION,
+  news TEXT,
+  link TEXT
+);
