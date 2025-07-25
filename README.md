@@ -2,6 +2,8 @@
 
 **A real-time alert web application for border conflict incidents between Thailand and Cambodia** — featuring interactive maps with pinpoint markers using Leaflet (OpenStreetMap).
 
+![Alt text](assets/asset1.png)
+
 ---
 
 ## 🔎 Key Features
